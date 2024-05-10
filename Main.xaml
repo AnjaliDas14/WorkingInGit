@@ -118,6 +118,6 @@
         <InArgument x:TypeArguments="x:Int32">[now.Year-intYearofBirth]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hello,&quot;+strFirstName+&quot;&quot;+strFirstName+&quot;! Your age is &quot;+intAge.ToString]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hello2,&quot;+strFirstName+&quot;&quot;+strFirstName+&quot;! Your age is &quot;+intAge.ToString]" />
   </Sequence>
 </Activity>
